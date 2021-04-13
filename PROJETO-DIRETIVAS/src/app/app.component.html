@@ -1,0 +1,24 @@
+<div style="text-align: center">
+<h1>
+Welcome to {{title}}!
+</h1>
+
+<div *ngIf='cursos.length > 0'>
+    <h1>Cursos</h1>
+<div *ngFor='let curso of this.cursos'>
+  {{curso}}
+</div>
+</div>
+<div *ngIf='cursos.length == 0'>
+  <h1>Não há cursos cadastrados</h1>
+</div>
+
+<div *ngIf='professores.length > 0'>
+  <h1>Professores</h1>
+<div *ngFor='let professor of this.professores'>
+{{professor}}
+</div>
+</div>
+<div *ngIf='professores.length == 0'>
+<h1>Não há professores cadastrados</h1>
+</div>

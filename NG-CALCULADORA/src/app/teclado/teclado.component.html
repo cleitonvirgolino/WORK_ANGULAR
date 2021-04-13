@@ -1,0 +1,77 @@
+
+
+<div class="container">
+<br>   
+<div class="telaCalculadora" class="row">
+    <div class="col">
+    <input class="form-control" type="text" [value]="resultado" readonly>
+</div>
+</div>
+
+    <br>
+<div class="row">
+    <div class="col">
+        <button type="button" class="btn btn-primary " (click)= "clicar('0')">0</button>
+    </div>
+    <div class="col">
+        <button type="button" class="btn btn-primary" (click)= "clicar('1')">1</button>
+    </div>
+    <div class="col">
+        <button type="button" class="btn btn-primary" (click)= "clicar('2')">2</button>
+    </div>
+    <div class="col">
+        <button type="button" class="btn btn-secondary " (click)= "clicar('*')">*</button>
+    </div>
+    </div>
+<br>
+
+    <div class="row">
+        <div class="col">
+            <button type="button" class="btn btn-primary" (click)= "clicar('3')">3</button>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-primary" (click)= "clicar('4')">4</button>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-primary" (click)= "clicar('5')">5</button>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-secondary" (click)= "clicar('/')">/</button>
+        </div>
+        </div>
+    <br>
+
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary " (click)= "clicar('6')">6</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary" (click)= "clicar('7')">7</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary" (click)= "clicar('8')">8</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary" (click)= "clicar('-')">-</button>
+            </div>
+            </div>
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary " (click)= "clicar('9')">9</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary" (click)= "limpar()">CE</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-success" (click)= "finalizar()">=</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary" (click)= "clicar('+')">+</button>
+            </div>
+            </div>
+        <br>
+
+</div>
+
