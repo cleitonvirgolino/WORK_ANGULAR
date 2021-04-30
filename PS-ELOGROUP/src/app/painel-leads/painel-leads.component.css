@@ -1,27 +1,21 @@
-#botao{
-width:100%;
-}
-
 .fundologo{
     background-color: rgb(43, 43, 63);
-    width: 90%;
+    width: 30%;
     text-align: center;
     margin-top: 10px;
     margin-left: 5%;
+    height: 43px;
 
 }
 h2{
     color: white;
     display: inline;
     font-weight:normal;
-    font-size: 300%;
+    font-size: 200%;
+}
+h1{
+    text-align: center;
 }
 #dif{
     font-weight:bold;
-}
-
-.container
-{
-    border-radius: 1px;
-    margin-top: 25%;
 }
