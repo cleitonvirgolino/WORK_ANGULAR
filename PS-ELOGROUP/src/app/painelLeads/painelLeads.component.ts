@@ -7,17 +7,10 @@ import { DataService } from "../data.service";
   styleUrls: ['./painelLeads.component.css']
 })
 export class PainelLeadsComponent implements OnInit {
-  public resultado: string = "";
-  public historico: string = "";
 
-  constructor(private data: DataService) {}
+  constructor(private data: DataService) { }
 
   ngOnInit(): void {
-    this.resultado = this.data.message;
-    this.historico = this.data.completeMessage;
-    if (this.resultado.trim() != "") {
-      this.historico += this.resultado + "\r\n";
-    }
   }
-  
 }
+

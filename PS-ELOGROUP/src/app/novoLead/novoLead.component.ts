@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from "../data.service";
-import { ValidacaoService } from "../validacao.service";
 
 @Component({
   selector: 'app-novoLead',
@@ -9,20 +8,8 @@ import { ValidacaoService } from "../validacao.service";
 })
 export class NovoLeadComponent implements OnInit {
 
-  constructor(private validacao: ValidacaoService, private data: DataService) {}
-  public resultado: string = "";
-  public operacao: string = "";
-  public historico: string = "";
+  constructor(private data: DataService) {}
 
   ngOnInit(): void {
-    this.historico = this.data.completeMessage;
   }
-
-  public cadastrar(): void {
-    if (this.validacao.ehValidaExpressao(digito, this.resultado)) {
-      this.resultado += digito;
-    }
-  }
-
-  }
-
+}
