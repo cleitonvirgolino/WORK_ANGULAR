@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PainelLeadsComponent } from './painel-leads.component';
+import { PainelLeadsComponent } from './painelLeads.component';
 
 describe('PainelLeadsComponent', () => {
   let component: PainelLeadsComponent;

@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NovoLeadComponent } from './novo-lead.component';
+import { NovoLeadComponent } from './novoLead.component';
 
 describe('NovoLeadComponent', () => {
   let component: NovoLeadComponent;
